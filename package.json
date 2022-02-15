@@ -9,8 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/lodash-es": "*",
     "@vitejs/plugin-vue": "^2.1.0",
-    "pnpm": "^6.30.0",
+    "element-plus": "^2.0.2",
     "vite": "^2.7.13",
     "vue": "^3.2.30"
   },
