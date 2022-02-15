@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "vite"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -12,8 +14,12 @@
     "@types/lodash-es": "*",
     "@vitejs/plugin-vue": "^2.1.0",
     "element-plus": "^2.0.2",
-    "vite": "^2.7.13",
     "vue": "^3.2.30"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "vite": "^2.7.13",
+    "vue-tsc": "^0.31.4"
+  }
 }
