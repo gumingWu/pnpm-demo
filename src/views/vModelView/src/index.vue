@@ -6,7 +6,7 @@
   <div>modelB: {{ modelB }}</div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts" name="vhhh">
 import vModelDemo from "../../../components/vModelDemo";
 import { ref } from "vue";
 let modelA = ref(0);
@@ -21,9 +21,9 @@ const subA = () => {
 };
 
 const addB = () => {
-  modelB.value += "a";
+  modelB.value += "aa1";
 };
 const subB = () => {
-  modelB.value += "b";
+  modelB.value += "bb";
 };
 </script>
