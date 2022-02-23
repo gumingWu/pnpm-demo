@@ -10,7 +10,7 @@ specifiers:
   unplugin-vue-components: ^0.17.18
   vite: ^2.7.13
   vue: ^3.2.31
-  vue-setup-name-plugin: ^1.1.2
+  vue-setup-name-plugin: ^1.2.0
   vue-tsc: ^0.31.4
 
 dependencies:
@@ -25,7 +25,7 @@ devDependencies:
   unplugin-vue-components: 0.17.19_vite@2.8.4+vue@3.2.31
   vite: 2.8.4
   vue: 3.2.31
-  vue-setup-name-plugin: 1.1.2_vite@2.8.4
+  vue-setup-name-plugin: 1.2.0_vite@2.8.4
   vue-tsc: 0.31.4_typescript@4.5.5
 
 packages:
@@ -1381,8 +1381,8 @@ packages:
       vue: 3.2.31
     dev: false
 
-  /vue-setup-name-plugin/1.1.2_vite@2.8.4:
-    resolution: {integrity: sha512-5yiZ6EDZCuaWK/bi+RLz6hZOQ/qrnYJnFjRuCpUpkASYEjzkKdSDa8ceH1mFsjmiTAWfK9b3xTTxPVqFyM+DmQ==}
+  /vue-setup-name-plugin/1.2.0_vite@2.8.4:
+    resolution: {integrity: sha512-3YDjHVP/0vOzyRAol/0B/wMOk87LvbW9TWGIP4OU+USKeCS677M1KBj/gWEmAjC42DGnljG/Nyf3N4ID9eKg1g==}
     dependencies:
       unplugin: 0.3.2_vite@2.8.4
     transitivePeerDependencies:
