@@ -13,7 +13,8 @@
   "dependencies": {
     "@types/lodash-es": "*",
     "@vitejs/plugin-vue": "^2.1.0",
-    "element-plus": "^2.0.2"
+    "element-plus": "^2.0.2",
+    "vue-setup-name-plugin": "^1.2.2"
   },
   "description": "",
   "devDependencies": {
@@ -23,7 +24,6 @@
     "unplugin-vue-components": "^0.17.18",
     "vite": "^2.7.13",
     "vue": "^3.2.31",
-    "vue-setup-name-plugin": "^1.2.0",
     "vue-tsc": "^0.31.4"
   }
 }
