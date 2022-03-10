@@ -25,10 +25,8 @@ onMounted(() => {
     (entries) => {
       entries.forEach((item) => {
         if (item.isIntersecting) {
-          const { dataSrc } = item.target.attributes;
-          const textContent = dataSrc.textContent;
-          console.log(textContent);
-
+          const dataSrc = item.target.attributes.getNamedItem("dataSrc");
+          const textContent = dataSrc?.textContent || "";
           item.target.setAttribute("src", textContent);
         } else {
           item.target.setAttribute("src", ""); // 离开可视区域，就消失，不知道有没有性能影响
