@@ -4,6 +4,7 @@ import AutoImport from "unplugin-auto-import/vite";
 import Components from "unplugin-vue-components/vite";
 import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
 import unplugin from "vue-setup-name-plugin";
+import rollupPluginVisualizer from "rollup-plugin-visualizer";
 
 export default defineConfig({
   plugins: [
@@ -15,5 +16,6 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
     unplugin.vite(),
+    rollupPluginVisualizer(),
   ],
 });
